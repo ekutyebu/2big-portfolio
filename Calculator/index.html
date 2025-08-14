@@ -1,106 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Cart Quantity</title>
 
-    <link rel="stylesheet" href="./cal.css">
-  </head>
-  <body>
-    <p class="js-cal-result cal-result"></p>
+<head>
+  <title>Calculator</title>
 
-    <p>
-      <button class="black-keys" onclick="
+  <link rel="stylesheet" href="./cal.css">
+</head>
+
+<body>
+  <p class="js-cal-result cal-result"></p>
+
+  <p>
+    <button class="black-keys" onclick="
           calculation += '1';
           cal();
         ">1</button>
 
-        <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
           calculation += '2';
           cal();
         ">2</button>
 
-        <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
           calculation += '3';
           cal();
         ">3</button>
 
-        <button class="orange-keys" onclick="
+    <button class="orange-keys" onclick="
           calculation += ' + ';
           cal();
         ">+</button>
-    </p>
+  </p>
 
-    <p>
-      <button class="black-keys" onclick="
+  <p>
+    <button class="black-keys" onclick="
           calculation += '4';
           cal();
         ">4</button>
 
-        <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
           calculation += '5';
           cal();
         ">5</button>
 
-        <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
           calculation += '6';
           cal();
         ">6</button>
 
-        <button class="orange-keys" onclick="
+    <button class="orange-keys" onclick="
           calculation += ' - ';
           cal();
         ">-</button>
-    </p>
+  </p>
 
-    <p>
-      <button class="black-keys" onclick="
+  <p>
+    <button class="black-keys" onclick="
           calculation += '7';
           cal();
         ">7</button>
 
-        <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
           calculation += '8';
           cal();
         ">8</button>
 
-        <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
           calculation += '9';
           cal();
         ">9</button>
 
-        <button class="orange-keys" onclick="
+    <button class="orange-keys" onclick="
           calculation += ' * ';
           cal();
         ">*</button>
-    </p>
+  </p>
 
-    <p>
-      <button class="black-keys" onclick="
+  <p>
+    <button class="black-keys" onclick="
         calculation += '0';
         cal();
       ">0</button>
 
-      <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
         calculation += ' . ';
         cal();
       ">.</button>
 
-      <button class="black-keys" onclick="
+    <button class="black-keys" onclick="
         calculation = eval(calculation);
         cal();
       ">=</button>
 
-      <button class="orange-keys" onclick="
+    <button class="orange-keys" onclick="
         calculation += ' / ';
         cal();
       ">/</button>
-    </p>
+  </p>
 
-    <p>
-      <button class="black-keys" onclick="
+  <p>
+    <button class="black-keys" onclick="
           calculation = '';
         ">clear</button>
-    </p>
-    <script src="./cal.js"></script>
-  </body>
+  </p>
+  <script src="./cal.js"></script>
+</body>
+
 </html>
